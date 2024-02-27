@@ -2,14 +2,8 @@ import preguntas as p
 
 def print_pregunta(enunciado, alternativas):
     
-    # Imprimir enunciado y alternativas
-    ###############################################################
-    pass
-    
-    
-    
-    
-    ###############################################################
+    while alternativas in enunciado:
+        return alternativas
         
 if __name__ == '__main__':
     # Las preguntas y alternativas deben mostrarse según lo indicado
